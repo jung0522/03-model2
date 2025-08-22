@@ -78,9 +78,9 @@ public class UploadConfig {
     } catch (IOException e) {
       System.out.println("⚠️ Properties 파일 로드 실패 - 하드코딩된 경로 사용");
       // Properties 파일 로드 실패 시 하드코딩된 경로 사용
-      rootPath = "D:/workspace-goorm-new/03-model2/uploads";
-      filesPath = "D:/workspace-goorm-new/03-model2/uploads/files";
-      imagesPath = "D:/workspace-goorm-new/03-model2/uploads/images";
+      rootPath = "/Users/jung0522/Desktop/upload";
+      filesPath = "/Users/jung0522/Desktop/upload/files";
+      imagesPath = "/Users/jung0522/Desktop/upload/images";
       webImagesPath = "/uploads/images";
 
       // 기본 확장자 설정
