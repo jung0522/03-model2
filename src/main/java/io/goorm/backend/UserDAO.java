@@ -20,12 +20,12 @@ public class UserDAO {
     // RowMapper 정의
     private RowMapper<User> userRowMapper = (rs, rowNum) -> {
         User user = new User();
-        user.setId(rs.getLong("ID"));
-        user.setUsername(rs.getString("USERNAME"));
-        user.setPassword(rs.getString("PASSWORD"));
-        user.setName(rs.getString("NAME"));
-        user.setEmail(rs.getString("EMAIL"));
-        user.setRegDate(rs.getTimestamp("REGDATE"));
+        user.setId(rs.getLong("id"));
+        user.setUsername(rs.getString("username"));
+        user.setPassword(rs.getString("password"));
+        user.setName(rs.getString("name"));
+        user.setEmail(rs.getString("email"));
+        user.setRegDate(rs.getTimestamp("reg_date"));
         return user;
     };
 
